@@ -18,7 +18,7 @@ def getColumnCount(sheetName):
 
 def readAllValues(sheetName):
     # Load the excel workbook
-    workbook = openpyxl.load_workbook("../Excel/loginData.xlsx")
+    workbook = openpyxl.load_workbook("../Excel/login.xlsx")
     # Load the excel workbook
     sheet = workbook[sheetName]
     mainlist = []
