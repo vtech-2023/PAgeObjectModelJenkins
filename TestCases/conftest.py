@@ -26,14 +26,14 @@ def log_on_failure(request, get_browser):
         allure.attach(driver.get_screenshot_as_png(), name="Failure", attachment_type=AttachmentType.PNG)
 
 
-@pytest.fixture(params=["chrome"], scope="function")
+@pytest.fixture(params=["chrome","firefox"], scope="function")
 def get_browser(request):
     if request.param == "chrome":
-        driver = webdriver.Chrome(executable_path=ChromeDriverManager().install())
-
+        # driver = webdriver.Chrome(executable_path=ChromeDriverManager().install())
+        driver = webdriver.Remote(command_executor=remote_url, desired_capabilities={"browserName": "chrome"})
     if request.param == "firefox":
-        driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
-
+        # driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
+        driver = webdriver.Remote(command_executor=remote_url, desired_capabilities={"browserName": "firefox"})
     request.cls.driver = driver
 
 

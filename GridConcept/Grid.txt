@@ -1,0 +1,123 @@
+Selenium WebDriver Client package for Python  -3.141.0
+Selenium Grid - 3.141.0  = Selenium Webdriver APi + Selenium Grid - It is command line
+based API which is a server API
+
+Download Selenium Grid 3.141.0 JAR which will work as server
+1) In Selenium .dev/downloads, go to Previous Releases section.
+2) Download the Selenium-Server Standalone 3.141.0.jar from the line adderess:
+https://github.com/SeleniumHQ/selenium/releases/download/selenium-3.141.0/selenium-server-3.141.0.zip
+3) Keep "Selenium-Server Standalone 3.141.0.jar" in Grid Details directory
+
+Selenium Grid Architecture:
+
+Client:
+1) Client machine  - where we create automation script including configuration.
+2) The client pushes the automation script to HUBS.
+
+Hubs:
+1) We need to start the Grid server through command line and for that the HUB machine should
+have "Selenium Grid 3.141.0 JAR "
+2) Any machine can be configured as HUB. We need to provide the port number
+and ip address when we start the GRID server to make a computer as HUB
+3)
+4) When HUB gets the script from client , the HUB pushes the script to NODES
+registered with it.
+5) By default hub runs in PORT 4444.
+
+NODES:APPLE/Windows/Linux/iphone/Android
+
+1) NDOES need to get registered with HUB (HUB should be up and running).NODES are machines connected with HUB in LOCAL INTRANET.
+2) For that NODES need to know the IP address and port number in which HUB is running.
+3) Also the node needs to give its own ip address and port number to register with HUB.
+4) NODES are registered with HUB using commands fired through command prompt or terminal
+present in hub.
+5)That means the NODE machine should also have  "Selenium Grid 3.141.0 JAR " file.
+
+In this scenario :
+The same machine will be configured as NODE and HUB
+
+1) HUB Configuration is kept in JSON file - hub.json. This file is kept at
+C:\Users\lenovo\Desktop\SeleniumPython\Workspace_VTech\GridConcept\GridDeatils
+2) With the above configuration, we need to make a machine as HUB : we
+are making the local computer as HUB (localhost: 127.0.0.1).
+3) TO make the computer as HUB , we need to open command prompt and change drver to
+C:\Users\lenovo\Desktop\SeleniumPython\Workspace_VTech\GridConcept\GridDeatils
+4) Fire the command to make a computer as HUB:
+java -jar selenium-server-standalone-3.141.59.jar -role hub -hubConfig hub.json
+AND wait for the HUB to be up and running
+5) In browser: open the Grid : localhost:4444 and click on enter button. CLick on GRID CONSOLE link.
+6) To stop HUB server --> ctrl+c (windows)
+
+7) Creating two nodes and the node configuration is kept in node3.json and node4.json file
+8) maxInstances - cannot be more than 5 . Number of specific browser than can run
+9) The driver (chromedriver, geckodriver, msedgedriver) should be put to same folder:
+C:\Users\lenovo\Desktop\SeleniumPython\Workspace_VTech\GridConcept\GridDeatils
+
+geckodrver 0.31 -->https://github.com/mozilla/geckodriver/releases/tag/v0.31.0
+
+9)maxSession - cannot be more than five. shows how many browsers can run parallel/concurrently
+
+Let's say maxInstances of  firefox, chrome and edge  = 15
+If maxSession  = 5, then decisions to run on browser is intelligently take in HUB
+firefox: 3
+chrome:1'
+edge :1
+
+firefox: 2
+chrome:2'
+edge :1
+
+NODE: Configuration sample
+- browser browserName=firefox,version=59,maxInstances=3,platform=WINDOWS
+-browser browserName=InternetExplorer,version=11,maxInstances=3,platform=WINDOWS
+
+It means we can run three instances of both Firefox and IE at the same time. So, a total of six
+different browsers (FireFox & IE) could run in parallel.
+
+While MaxSession shows how many browsers, independent of the type & version, can run concurrently
+on the remote machine. It supersedes the “MaxInstances” setting. From above command, if the value
+of “maxSession” is one, then no more than a single browser would run. While its value is two,
+then any of these combinations (2FF, 2IE, 1FF+1IE) can run at a time.
+
+10) node3.json and node4.json works with maxInstances of 5 amd maxSessions of 5
+node3.json - 5 instances of Firefox
+node4.json - 5 instances ofChrome
+
+11) RUn the node3.bat and node4.bat.The batch contains the following command sto tregister nodes with hub
+
+C:\Users\lenovo\Desktop\SeleniumPython\Workspace_VTech\GridConcept\GridDeatils
+java -jar selenium-server-standalone-3.141.59.jar -role node -nodeConfig node3.json
+
+C:\Users\lenovo\Desktop\SeleniumPython\Workspace_VTech\GridConcept\GridDeatils
+java -jar selenium-server-standalone-3.141.59.jar -role node -nodeConfig node4.json
+
+12) The command prompt will show that nodes are registered.
+13) See the GRID CONSOLE , to see the nodes by opening : localhost:4444 in browser and clicking on GRID CONSOLE link
+
+
+14) The PYCHARM project should have the python package for selenium Webdriver 3.141.0,
+allure-pytest, pytest, pytest-xdist - compulsory.
+
+pytest-soft-asserts, pytest-html - optional
+
+15) Create the Selenium Python automation script
+
+16) When we run the script through GRID (let the nodes and hub is in running mode),
+parallel testing will happen
+
+4 sets of data on chrome
+4 sets of data on firefox
+
+Total we will see that eight browsers are opening in parallel mode
+
+
+
+Sequential Testing
+1)pytest test_gridScript.py -s -v --alluredir="C:/Users/lenovo/Desktop/SeleniumPython/Workspace_VTech/GridConcept/allurereports"
+
+Parallel Testing - need pytest-xdist package to be installed
+1)pytest test_gridScript.py -s -v -n 8 --alluredir="C:/Users/lenovo/Desktop/SeleniumPython/Workspace_VTech/GridConcept/allurereports"
+
+
+
+
