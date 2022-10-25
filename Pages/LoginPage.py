@@ -20,6 +20,10 @@ class LoginPage(BaseSettingsPage):
         # self.driver.get(configreader.ConfigReader("base url", "URL"))
         # self.driver.find_element_by_id(configreader.ConfigReader("locators", "username_ID")).send_keys("selenium.testmay2017")
         self.DynamicImplicitWait(100)
+        # Assert the title
+        self.AssertTitle("Rediffmail")
+        # Assert by the text "Username"
+        self.AssertText("usernaneText_XPATH", "Username")
         # Username Typed
         self.TypeEditBox("username_ID", username)
         # Password Typed

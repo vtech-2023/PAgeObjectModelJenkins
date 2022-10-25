@@ -9,6 +9,9 @@ class InboxPage(BaseSettingsPage):
     def SendMail(self, tofield, subjectarea, composetext):
         self.DynamicImplicitWait(100)
         # self.DynamicExplcitWait("writeMail_XPATH", 20)
+        # Assert the title
+        self.AssertTitle("Rediffmail")
+        self.AssertText("writeMailText_XPATH", "Write mail")
         self.ClickLinks("writeMail_XPATH")
         self.StaticWait(6)
         self.TypeEditBox("toField_XPATH", tofield)
