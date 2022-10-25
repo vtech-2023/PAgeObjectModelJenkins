@@ -199,3 +199,10 @@ JavaScript warning: https://rock.defybrick.com/placement_invocation?id=65349&idx
 JavaScript error: http://newimads.rediff.com/rediffadserver/www/images/87c09506999aab7e4ab253e2a6fb8683/index.html?clickTag=http://newads.rediff.com/rediffadserver/www/delivery/ck.php?oaparams=2__bannerid=6721__zoneid=56__source=_blank__OXLCA=1__cb=f58df5c5ea__oadest=, line 12: SecurityError: Permission denied to access property "document" on cross-origin object
 JavaScript warning: https://im.rediff.com/worldrediff/js_2_5/jquery.js, line 2425: unreachable code after return statement
 1666709270467	Marionette	INFO	Stopped listening on port 64330
+1666709540434	geckodriver	INFO	Listening on 127.0.0.1:64701
+1666709543452	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofileZfPV9e"
+1666709543960	Marionette	INFO	Marionette enabled
+1666709543970	Marionette	INFO	Listening on port 64713
+Read port: 64713
+1666709544167	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofileZfPV9e\\search.json.mozlz4", (void 0)))
