@@ -2,7 +2,7 @@ import openpyxl
 
 def getRowCount(sheetName):
     # Load the excel workbook
-    workbook = openpyxl.load_workbook("../Excel/loginData.xlsx")
+    workbook = openpyxl.load_workbook("../Excel/login.xlsx")
     # Load the excel workbook
     sheet = workbook[sheetName]
     # Total rows
@@ -10,7 +10,7 @@ def getRowCount(sheetName):
 
 def getColumnCount(sheetName):
     # Load the excel workbook
-    workbook = openpyxl.load_workbook("../Excel/loginData.xlsx")
+    workbook = openpyxl.load_workbook("../Excel/login.xlsx")
     # Load the excel workbook
     sheet = workbook[sheetName]
     # Total rows

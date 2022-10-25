@@ -4,7 +4,7 @@ from Utilities.excelreader import readAllValues
 
 
 def getDataExcel(sheetName):
-    # workbook = openpyxl.load_workbook("../Excel/loginData.xlsx")
+    # workbook = openpyxl.load_workbook("../Excel/login.xlsx")
     # sheet = workbook[sheetName]
     # totalrows = sheet.max_row
     # totalcols = sheet.max_column
