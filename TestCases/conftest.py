@@ -26,7 +26,7 @@ def log_on_failure(request, get_browser):
         allure.attach(driver.get_screenshot_as_png(), name="Failure", attachment_type=AttachmentType.PNG)
 
 
-@pytest.fixture(params=["chrome","firefox"], scope="function")
+@pytest.fixture(params=["chrome"], scope="function")
 def get_browser(request):
     remote_url = "http://localhost:4444/wd/hub"
     if request.param == "chrome":
@@ -37,7 +37,6 @@ def get_browser(request):
         driver = webdriver.Remote(command_executor=remote_url, desired_capabilities={"browserName": "firefox"})
     request.cls.driver = driver
 
-
     # Maximise the browser window
     driver.maximize_window()
     # Page load timeout
@@ -45,7 +44,6 @@ def get_browser(request):
     # Navigate to URL
     driver.get(configreader.ConfigReader("base url", "URL"))
 
-
     yield driver
     time.sleep(2)
-    driver.close()
+    driver.quit()

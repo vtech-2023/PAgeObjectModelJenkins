@@ -55,3 +55,12 @@
 2022-10-25 16:55:32,210 - test_rediffmailSendMail.py:[62] - [INFO] - Test to send mail over
 2022-10-25 16:56:04,019 - test_rediffmailSendMail.py:[57] - [INFO] - Test to Sign up finished - Send Mail
 2022-10-25 16:56:31,658 - test_rediffmailSendMail.py:[62] - [INFO] - Test to send mail over
+2022-10-25 17:13:44,884 - test_rediffmailSaveMail.py:[39] - [INFO] - Test to Sign up finished - Save Mail
+2022-10-25 17:16:53,838 - test_rediffmailSaveMail.py:[39] - [INFO] - Test to Sign up finished - Save Mail
+2022-10-25 17:18:23,234 - test_rediffmailSaveMail.py:[44] - [INFO] - Test to save mail over
+2022-10-25 17:19:10,703 - test_rediffmailSaveMail.py:[39] - [INFO] - Test to Sign up finished - Save Mail
+2022-10-25 17:19:40,104 - test_rediffmailSaveMail.py:[44] - [INFO] - Test to save mail over
+2022-10-25 17:20:04,245 - test_rediffmailSendMail.py:[57] - [INFO] - Test to Sign up finished - Send Mail
+2022-10-25 17:20:34,228 - test_rediffmailSendMail.py:[62] - [INFO] - Test to send mail over
+2022-10-25 17:21:01,654 - test_rediffmailSendMail.py:[57] - [INFO] - Test to Sign up finished - Send Mail
+2022-10-25 17:21:32,622 - test_rediffmailSendMail.py:[62] - [INFO] - Test to send mail over
