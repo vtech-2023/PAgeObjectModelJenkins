@@ -61,6 +61,7 @@ class TestRediffmailSendMail(BaseTest):
         i.SendMail(tofield, subjectarea, composetext)
         log.logger.info("Test to send mail over")
         allure.attach(self.driver.get_screenshot_as_png(), name="RediffmailSendMail", attachment_type=AttachmentType.PNG)
+        # Comment for print
         print("Finished  - running Send Email test Case")
 
 
