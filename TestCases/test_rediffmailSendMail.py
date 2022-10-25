@@ -61,7 +61,7 @@ class TestRediffmailSendMail(BaseTest):
         i.SendMail(tofield, subjectarea, composetext)
         log.logger.info("Test to send mail over")
         allure.attach(self.driver.get_screenshot_as_png(), name="RediffmailSendMail", attachment_type=AttachmentType.PNG)
-        print("Finished running Send Email test Case")
+        print("Finished  - running Send Email test Case")
 
 
     # @pytest.mark.run(order=2)
