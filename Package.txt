@@ -1,0 +1,5 @@
+Create Requirements.txt from project level in terminal at Workspace_VTech project to get all packages:
+pip freeze > Requirements.txt
+
+To use the same packages in other projects (Workspace_POM) use in terminal at project level:
+pip install -r Requirements.txt

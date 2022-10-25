@@ -1,0 +1,2 @@
+INFO     TestCases.test_rediffmailSendMail:test_rediffmailSendMail.py:57 Test to Sign up finished - Send Mail
+INFO     TestCases.test_rediffmailSendMail:test_rediffmailSendMail.py:61 Test to send mail over
