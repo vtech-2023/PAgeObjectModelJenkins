@@ -30,11 +30,11 @@ def log_on_failure(request, get_browser):
 def get_browser(request):
     remote_url = "http://localhost:4444/wd/hub"
     if request.param == "chrome":
-        # driver = webdriver.Chrome(executable_path=ChromeDriverManager().install())
-        driver = webdriver.Remote(command_executor=remote_url, desired_capabilities={"browserName": "chrome"})
+        driver = webdriver.Chrome(executable_path=ChromeDriverManager().install())
+        # driver = webdriver.Remote(command_executor=remote_url, desired_capabilities={"browserName": "chrome"})
     if request.param == "firefox":
-        # driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
-        driver = webdriver.Remote(command_executor=remote_url, desired_capabilities={"browserName": "firefox"})
+        driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
+        # driver = webdriver.Remote(command_executor=remote_url, desired_capabilities={"browserName": "firefox"})
     request.cls.driver = driver
 
     # Maximise the browser window

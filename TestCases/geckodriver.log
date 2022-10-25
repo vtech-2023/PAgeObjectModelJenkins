@@ -51,3 +51,37 @@ Read port: 57739
 1666177315156	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofileyMODbL\\search.json.mozlz4", (void 0)))
 1666177320618	Marionette	INFO	Stopped listening on port 57739
+1666700833814	geckodriver	INFO	Listening on 127.0.0.1:64117
+1666700836843	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofile4bzvVs"
+1666700837608	Marionette	INFO	Marionette enabled
+1666700837627	Marionette	INFO	Listening on port 64129
+Read port: 64129
+1666700837854	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofile4bzvVs\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.rediff.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.rediff.com."
+1666700845826	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1666700856049	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript warning: https://im.rediff.com/worldrediff/js_2_5/jquery_1_10_min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://f5mail.rediff.com."
+JavaScript warning: https://pagead2.googlesyndication.com/bg/S59cL8NpNlz03nuQ7M-TG0OvY6nWg2CBBQLmeE6XtI4.js line 2 > eval line 1895 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666700884890	Marionette	INFO	Stopped listening on port 64129
+[Parent 28564, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:746
+1666700901590	geckodriver	INFO	Listening on 127.0.0.1:64287
+1666700904582	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofileSkSBCM"
+1666700905318	Marionette	INFO	Marionette enabled
+1666700905330	Marionette	INFO	Listening on port 64299
+Read port: 64299
+1666700905626	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofileSkSBCM\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://pagead2.googlesyndication.com/bg/S59cL8NpNlz03nuQ7M-TG0OvY6nWg2CBBQLmeE6XtI4.js line 2 > eval line 146 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/S59cL8NpNlz03nuQ7M-TG0OvY6nWg2CBBQLmeE6XtI4.js line 2 > eval line 7778 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666700944921	Marionette	INFO	Stopped listening on port 64299
+JavaScript error: resource://gre/modules/Sqlite.sys.mjs, line 1106: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\lenovo\AppData\Local\Temp\rust_mozprofileSkSBCM\protections.sqlite
+[Parent 38472, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:746
+1666700947902	geckodriver	INFO	Listening on 127.0.0.1:64431
+1666700950907	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofileHmGOBt"
+1666700951688	Marionette	INFO	Marionette enabled
+1666700951700	Marionette	INFO	Listening on port 64443
+Read port: 64443
+1666700951973	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
