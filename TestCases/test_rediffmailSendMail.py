@@ -47,7 +47,7 @@ class TestRediffmailSendMail(BaseTest):
     """
 
     # @pytest.mark.parametrize("username, password", get_loginData())
-    @pytest.mark.run(order=1)
+    @pytest.mark.run()
     @pytest.mark.parametrize("username, password,tofield, subjectarea, composetext",datareader.getDataExcel("SendMail"))
     def test_doRediffSendMail(self, username, password, tofield, subjectarea, composetext):
         print(username, "--", password, "--", tofield, "--", subjectarea, "--", composetext)

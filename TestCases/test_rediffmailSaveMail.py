@@ -28,7 +28,7 @@ log = Logger(__name__,logging.INFO)
 class TestRediffmailSaveMail(BaseTest):
 
 
-    @pytest.mark.run(order=1)
+    @pytest.mark.run()
     @pytest.mark.parametrize("username, password,tofield, subjectarea, composetext",datareader.getDataExcel("SaveMail"))
     def test_doRediffSaveMail(self, username, password, tofield, subjectarea, composetext):
 
