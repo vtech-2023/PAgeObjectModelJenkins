@@ -48,4 +48,4 @@ def get_browser(request):
 
     yield driver
     time.sleep(2)
-    driver.quit()
+    driver.close()
