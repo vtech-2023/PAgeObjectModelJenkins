@@ -2,6 +2,7 @@ import allure
 import pytest
 from allure_commons.types import AttachmentType
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.firefox import GeckoDriverManager
 import time
@@ -29,8 +30,11 @@ def log_on_failure(request, get_browser):
 @pytest.fixture(params=["firefox"], scope="function")
 def get_browser(request):
     # remote_url = "http://localhost:4444/wd/hub"
+    options = Options()
+    options.add_experimental_option('excludeSwitches', ['enable-logging'])
     if request.param == "chrome":
-        driver = webdriver.Chrome(executable_path=ChromeDriverManager().install())
+        # driver = webdriver.Chrome(executable_path=ChromeDriverManager().install())
+        driver = webdriver.Chrome(executable_path=ChromeDriverManager().install(),chrome_options=options)
         # driver = webdriver.Remote(command_executor=remote_url, desired_capabilities={"browserName": "chrome"})
     if request.param == "firefox":
         driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
