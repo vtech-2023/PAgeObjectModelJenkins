@@ -26,7 +26,7 @@ def log_on_failure(request, get_browser):
         allure.attach(driver.get_screenshot_as_png(), name="Failure", attachment_type=AttachmentType.PNG)
 
 
-@pytest.fixture(params=["chrome"], scope="function")
+@pytest.fixture(params=["firefox"], scope="function")
 def get_browser(request):
     remote_url = "http://localhost:4444/wd/hub"
     if request.param == "chrome":
