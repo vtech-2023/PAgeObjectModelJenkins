@@ -28,7 +28,7 @@ def log_on_failure(request, get_browser):
 
 @pytest.fixture(params=["firefox"], scope="function")
 def get_browser(request):
-    remote_url = "http://localhost:4444/wd/hub"
+    # remote_url = "http://localhost:4444/wd/hub"
     if request.param == "chrome":
         driver = webdriver.Chrome(executable_path=ChromeDriverManager().install())
         # driver = webdriver.Remote(command_executor=remote_url, desired_capabilities={"browserName": "chrome"})

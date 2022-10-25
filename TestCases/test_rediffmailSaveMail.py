@@ -21,17 +21,15 @@ pip install pytest-ordering
 
 """
 
-
-log = Logger(__name__,logging.INFO)
+log = Logger(__name__, logging.INFO)
 
 
 class TestRediffmailSaveMail(BaseTest):
 
 
-    @pytest.mark.run()
-    @pytest.mark.parametrize("username, password,tofield, subjectarea, composetext",datareader.getDataExcel("SaveMail"))
+    @pytest.mark.parametrize("username, password,tofield, subjectarea, composetext",
+                             datareader.getDataExcel("SaveMail"))
     def test_doRediffSaveMail(self, username, password, tofield, subjectarea, composetext):
-
         print(username, "--", password, "--", tofield, "--", subjectarea, "--", composetext)
         l = LoginPage(self.driver)
         i = InboxPage(self.driver)
@@ -39,9 +37,9 @@ class TestRediffmailSaveMail(BaseTest):
         log.logger.info("Test to Sign up finished - Save Mail")
         allure.attach(self.driver.get_screenshot_as_png(), name="RediffmailLogin", attachment_type=AttachmentType.PNG)
 
-
         i.SaveMail(tofield, subjectarea, composetext)
         log.logger.info("Test to save mail over")
-        allure.attach(self.driver.get_screenshot_as_png(), name="RediffmailSaveMail", attachment_type=AttachmentType.PNG)
+        allure.attach(self.driver.get_screenshot_as_png(), name="RediffmailSaveMail",
+                      attachment_type=AttachmentType.PNG)
         # Comment for print
         print("Finished - running Save Email test Case")
