@@ -39,7 +39,8 @@ class TestRediffmailSaveMail(BaseTest):
         log.logger.info("Test to Sign up finished - Save Mail")
         allure.attach(self.driver.get_screenshot_as_png(), name="RediffmailLogin", attachment_type=AttachmentType.PNG)
 
+
         i.SaveMail(tofield, subjectarea, composetext)
         log.logger.info("Test to save mail over")
         allure.attach(self.driver.get_screenshot_as_png(), name="RediffmailSaveMail", attachment_type=AttachmentType.PNG)
-
+        print("Finished running Save Email test Case")
