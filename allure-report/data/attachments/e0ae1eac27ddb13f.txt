@@ -1,0 +1,2 @@
+INFO     TestCases.test_rediffmailSaveMail:test_rediffmailSaveMail.py:37 Test to Sign up finished - Save Mail
+INFO     TestCases.test_rediffmailSaveMail:test_rediffmailSaveMail.py:41 Test to save mail over

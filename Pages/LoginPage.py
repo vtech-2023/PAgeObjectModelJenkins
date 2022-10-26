@@ -29,7 +29,7 @@ class LoginPage(BaseSettingsPage):
         # Password Typed
         self.TypeEditBox("password_ID", password)
         # Sign in Checkbox
-        # self.ClickCheckbox("signinCheckbox_NAME")
+        self.ClickCheckbox("signinCheckbox_NAME")
         # Sign in Button
         self.ClickButton("signinButton_NAME")
         self.StaticWait(5)
