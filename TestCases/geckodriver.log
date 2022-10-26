@@ -339,3 +339,365 @@ JavaScript warning: https://pagead2.googlesyndication.com/bg/S59cL8NpNlz03nuQ7M-
 1666752838723	Marionette	INFO	Stopped listening on port 52434
 JavaScript warning: https://im.rediff.com/worldrediff/js_2_5/jquery.js, line 2425: unreachable code after return statement
 JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=ce2acada00"
+1666753148713	geckodriver	INFO	Listening on 127.0.0.1:52634
+1666753151723	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofileG399Uc"
+1666753152454	Marionette	INFO	Marionette enabled
+1666753152463	Marionette	INFO	Listening on port 52646
+Read port: 52646
+1666753152615	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofileG399Uc\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.rediff.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.rediff.com."
+1666753158616	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://im.rediff.com/worldrediff/js_2_5/jquery_1_10_min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1666753167874	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript warning: https://rock.defybrick.com/placement_invocation?id=65349&idx=0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666753170993	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://f5mail.rediff.com."
+JavaScript warning: https://rock.defybrick.com/placement_invocation?id=65349&idx=0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://rock.defybrick.com/placement_invocation?id=65349&idx=0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666753177840	Marionette	INFO	Stopped listening on port 52646
+1666753190747	geckodriver	INFO	Listening on 127.0.0.1:52762
+1666753193754	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofilebwRFWg"
+1666753194800	Marionette	INFO	Marionette enabled
+1666753194812	Marionette	INFO	Listening on port 52774
+Read port: 52774
+1666753195079	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofilebwRFWg\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.rediff.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.rediff.com."
+1666753231994	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://im.rediff.com/worldrediff/js_2_5/jquery_1_10_min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1666753239572	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript warning: https://rock.defybrick.com/placement_invocation?id=65349&idx=0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666753241889	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://f5mail.rediff.com."
+JavaScript warning: https://pagead2.googlesyndication.com/bg/S59cL8NpNlz03nuQ7M-TG0OvY6nWg2CBBQLmeE6XtI4.js line 2 > eval line 7545 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666753251670	Marionette	INFO	Stopped listening on port 52774
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7813db0700"
+[Parent 3884, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:746
+1666753266508	geckodriver	INFO	Listening on 127.0.0.1:52041
+1666753269510	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofilesGEtv3"
+1666753270316	Marionette	INFO	Marionette enabled
+1666753270324	Marionette	INFO	Listening on port 52053
+Read port: 52053
+1666753270515	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofilesGEtv3\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.rediff.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.rediff.com."
+1666753276115	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://im.rediff.com/worldrediff/js_2_5/jquery_1_10_min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1666753285803	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript warning: https://rock.defybrick.com/placement_invocation?id=65349&idx=0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666753289125	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://f5mail.rediff.com."
+JavaScript warning: https://pagead2.googlesyndication.com/bg/S59cL8NpNlz03nuQ7M-TG0OvY6nWg2CBBQLmeE6XtI4.js line 2 > eval line 439 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666753297181	Marionette	INFO	Stopped listening on port 52053
+console.warn: services.settings: main/partitioning-exempt-urls sync interrupted by shutdown
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=2d848cfb00"
+1666753311969	geckodriver	INFO	Listening on 127.0.0.1:49960
+1666753314982	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofileU5U0Hz"
+1666753315845	Marionette	INFO	Marionette enabled
+1666753315864	Marionette	INFO	Listening on port 49972
+Read port: 49972
+1666753316016	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofileU5U0Hz\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.rediff.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.rediff.com."
+1666753325643	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://rock.defybrick.com/placement_invocation?id=65349&idx=0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666753329210	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1666753335291	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript warning: https://rock.defybrick.com/placement_invocation?id=65349&idx=0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://f5mail.rediff.com."
+1666753349964	Marionette	INFO	Stopped listening on port 49972
+console.warn: services.settings: main/partitioning-exempt-urls sync interrupted by shutdown
+1666759353618	geckodriver	INFO	Listening on 127.0.0.1:60328
+1666759356639	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofileGS7HFV"
+1666759376215	geckodriver	INFO	Listening on 127.0.0.1:60376
+1666759379228	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofileBioM3g"
+1666759379872	Marionette	INFO	Marionette enabled
+1666759379880	Marionette	INFO	Listening on port 60408
+Read port: 60408
+1666759380112	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofileBioM3g\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.rediff.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.rediff.com."
+1666759386339	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1666759392260	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://rock.defybrick.com/placement_invocation?id=65349&idx=0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666759400172	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript warning: https://im.rediff.com/worldrediff/js_2_5/jquery_1_10_min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://f5mail.rediff.com."
+1666759409569	Marionette	INFO	Stopped listening on port 60408
+console.warn: services.settings: main/partitioning-exempt-urls sync interrupted by shutdown
+1666759430802	geckodriver	INFO	Listening on 127.0.0.1:60093
+1666759433800	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofilejGhk4A"
+1666759434656	Marionette	INFO	Marionette enabled
+1666759434668	Marionette	INFO	Listening on port 60105
+Read port: 60105
+1666759434906	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofilejGhk4A\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.rediff.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.rediff.com."
+1666759448758	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://im.rediff.com/worldrediff/js_2_5/jquery_1_10_min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1666759459513	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://f5mail.rediff.com."
+[Parent 11732, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:746
+JavaScript error: http://newimads.rediff.com/rediffadserver/www/images/945fc35ad39f9c064b335caf6a89891b/index.html?clickTag=http://newads.rediff.com/rediffadserver/www/delivery/ck.php?oaparams=2__bannerid=6747__zoneid=56__source=_blank__OXLCA=1__cb=0e7020a764__oadest=, line 12: SecurityError: Permission denied to access property "document" on cross-origin object
+JavaScript warning: https://im.rediff.com/worldrediff/js_2_5/jquery.js, line 2425: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/S59cL8NpNlz03nuQ7M-TG0OvY6nWg2CBBQLmeE6XtI4.js line 2 > eval line 3614 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666759473025	Marionette	INFO	Stopped listening on port 60105
+console.warn: services.settings: main/partitioning-exempt-urls sync interrupted by shutdown
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=731f8ada00"
+1666759493082	geckodriver	INFO	Listening on 127.0.0.1:60264
+1666759496097	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofilecKiW5x"
+1666759496662	Marionette	INFO	Marionette enabled
+1666759496671	Marionette	INFO	Listening on port 60278
+Read port: 60278
+1666759496870	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofilecKiW5x\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.rediff.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.rediff.com."
+1666759504516	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1666759507472	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1666759507493	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1666759516526	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://f5mail.rediff.com."
+1666759528637	Marionette	INFO	Stopped listening on port 60278
+1666759625317	geckodriver	INFO	Listening on 127.0.0.1:60447
+1666759628318	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofileK3IeIM"
+1666759628978	Marionette	INFO	Marionette enabled
+1666759628986	Marionette	INFO	Listening on port 60459
+Read port: 60459
+1666759629166	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofileK3IeIM\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.rediff.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.rediff.com."
+1666759636134	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://im.rediff.com/worldrediff/js_2_5/jquery_1_10_min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1666759644317	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript warning: https://rock.defybrick.com/placement_invocation?id=65349&idx=0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Parent 10832, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:746
+JavaScript warning: https://im.rediff.com/worldrediff/js_2_5/jquery_1_10_min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1666759647110	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://f5mail.rediff.com."
+[Parent 10832, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:746
+[Parent 10832, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:746
+1666759654080	Marionette	INFO	Stopped listening on port 60459
+console.warn: services.settings: main/partitioning-exempt-urls sync interrupted by shutdown
+[Parent 10832, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:559
+1666759668884	geckodriver	INFO	Listening on 127.0.0.1:60747
+1666759671898	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofilex9uyFi"
+1666759672436	Marionette	INFO	Marionette enabled
+1666759672445	Marionette	INFO	Listening on port 60759
+Read port: 60759
+1666759672634	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofilex9uyFi\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.rediff.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.rediff.com."
+1666759680188	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://rock.defybrick.com/placement_invocation?id=65349&idx=0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666759684352	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1666759688334	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript warning: https://im.rediff.com/worldrediff/js_2_5/jquery_1_10_min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://f5mail.rediff.com."
+1666759697897	Marionette	INFO	Stopped listening on port 60759
+[Parent 10692, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:746
+1666759711902	geckodriver	INFO	Listening on 127.0.0.1:60892
+1666759714911	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofileioejcD"
+1666759715470	Marionette	INFO	Marionette enabled
+1666759715480	Marionette	INFO	Listening on port 60905
+Read port: 60905
+1666759715658	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofileioejcD\\search.json.mozlz4", (void 0)))
+1666759740306	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://rock.defybrick.com/placement_invocation?id=65349&idx=0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/S59cL8NpNlz03nuQ7M-TG0OvY6nWg2CBBQLmeE6XtI4.js line 2 > eval line 6432 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.rediff.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.rediff.com."
+1666759746077	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://im.rediff.com/worldrediff/js_2_5/jquery_1_10_min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1666759756836	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://f5mail.rediff.com."
+[Parent 9588, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:746
+1666759770142	Marionette	INFO	Stopped listening on port 60905
+JavaScript error: resource://gre/modules/CrashManager.jsm, line 908: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+1666759788199	geckodriver	INFO	Listening on 127.0.0.1:58106
+1666759791202	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofileA1D2ba"
+1666759791840	Marionette	INFO	Marionette enabled
+1666759791848	Marionette	INFO	Listening on port 58118
+Read port: 58118
+1666759792067	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofileA1D2ba\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.rediff.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.rediff.com."
+1666759799312	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1666759810604	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript warning: https://im.rediff.com/worldrediff/js_2_5/jquery_1_10_min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://f5mail.rediff.com."
+1666759824715	Marionette	INFO	Stopped listening on port 58118
+console.warn: services.settings: main/partitioning-exempt-urls sync interrupted by shutdown
+[Parent 10488, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:559
+[Parent 10488, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:559
+[Parent 10488, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:559
+[Parent 10488, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:559
+1666760266974	geckodriver	INFO	Listening on 127.0.0.1:58470
+1666760269964	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofile9FaKyn"
+1666760271172	Marionette	INFO	Marionette enabled
+1666760271191	Marionette	INFO	Listening on port 58483
+Read port: 58483
+1666760271654	geckodriver	INFO	Listening on 127.0.0.1:58486
+1666760274590	mozrunner::runconsole.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofile9F1666760276821	Marionette	INFO	MarionettJavaScript warning: https://pagead2.googlesyndication.com/bg/S59cL8NpNlz03nuQ7M-TG0OvY6nWg2CBBQLmeE6XtI4.js line 2 > eval line 3439 > eval line 1 > eval line 1 > eval, linconsole.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 763))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.rediff.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.rediff.com."
+166JavaScript warning: https://im.rediff.com/worldrediff/js_2_5/jquery_1_10_min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1666760325331	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:220:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:1666760329222	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:220:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:311666760334151	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/mJavaScript warning: https://rock.defybrick.com/placement_invocation?id=65349&idx=0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666760338931	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1666760339807	Marionette	INFO	Stopped listening on port 58535
+[Parent 7672, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:559
+[Parent 7672, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:559
+e://remote/content/marionette/sync.sys.mjs:220:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1666760338456	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:220:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1666760339385	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/c1666760340437	Marionette	INFO	Stopped listening on port 58531
+mote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://f5mail.rediff.com."
+JavaScript warning: https://pagead2.googlesyndication.com/bg/S59cL8NpNlz03nuQ7M-TG0OvY6nWg2CBBQLmeE6XtI4.js line 2 > eval line 7365 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666760346377	Marionette	INFO	Stopped listening on port 58483
+[Parent 13096, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:746
+ver/www/images/7129e7ec8747681123458991bf4922ae/index.html?clickTag=http://newads.rediff.com/rediffadserver/www/delivery/ck.php?oaparams=2__bannerid=6745__zoneid=56__source=_blank__OXLCA=1__cb=bd47cff44b__oadest=, line 12: SecurityError: Permission denied to access property "document" on cross-origin object
+JavaScript warning: https://im.rediff.com/worldrediff/js_2_5/jquery.js, line 2425: unreachable code after return statement
+1666760340020	Marionette	INFO	Stopped listening on port 58533
+1666762675210	geckodriver	INFO	Listening on 127.0.0.1:61352
+1666762678210	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofile2yrASU"
+1666762678799	Marionette	INFO	Marionette enabled
+1666762678810	Marionette	INFO	Listening on port 61366
+Read port: 61366
+1666762678993	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofile2yrASU\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.rediff.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.rediff.com."
+1666762689434	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://im.rediff.com/worldrediff/js_2_5/jquery_1_10_min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1666762699135	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript warning: https://im.rediff.com/worldrediff/js_2_5/jquery_1_10_min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://f5mail.rediff.com."
+1666762712169	Marionette	INFO	Stopped listening on port 61366
+1666762725707	geckodriver	INFO	Listening on 127.0.0.1:61509
+1666762728710	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofileqexGxW"
+1666762729322	Marionette	INFO	Marionette enabled
+1666762729332	Marionette	INFO	Listening on port 61521
+Read port: 61521
+1666762729527	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofileqexGxW\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.rediff.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.rediff.com."
+1666762736579	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1666762743624	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://rock.defybrick.com/placement_invocation?id=65349&idx=0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666762747814	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript warning: https://rock.defybrick.com/placement_invocation?id=65349&idx=0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://im.rediff.com/worldrediff/js_2_5/jquery_1_10_min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://f5mail.rediff.com."
+[Parent 16816, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:746
+1666762757213	Marionette	INFO	Stopped listening on port 61521
+1666762771808	geckodriver	INFO	Listening on 127.0.0.1:61667
+1666762774836	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofileVRCBvm"
+1666762775441	Marionette	INFO	Marionette enabled
+1666762775452	Marionette	INFO	Listening on port 61679
+Read port: 61679
+1666762775657	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofileVRCBvm\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.rediff.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.rediff.com."
+1666762782223	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://rock.defybrick.com/placement_invocation?id=65349&idx=0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666762788320	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1666762794659	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript warning: https://im.rediff.com/worldrediff/js_2_5/jquery_1_10_min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://f5mail.rediff.com."
+1666762806495	Marionette	INFO	Stopped listening on port 61679
+[Parent 15008, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1666762820457	geckodriver	INFO	Listening on 127.0.0.1:61833
+1666762823470	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofileDcjNmi"
+1666762824080	Marionette	INFO	Marionette enabled
+1666762824091	Marionette	INFO	Listening on port 61845
+Read port: 61845
+1666762824297	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofileDcjNmi\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.rediff.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.rediff.com."
+1666762831173	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://im.rediff.com/worldrediff/js_2_5/jquery_1_10_min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1666762841625	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://f5mail.rediff.com."
+1666762853611	Marionette	INFO	Stopped listening on port 61845
+JavaScript warning: https://pagead2.googlesyndication.com/bg/S59cL8NpNlz03nuQ7M-TG0OvY6nWg2CBBQLmeE6XtI4.js line 2 > eval line 6093 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666763126006	geckodriver	INFO	Listening on 127.0.0.1:62151
+1666763129001	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofilePX7OfN"
+1666763131159	Marionette	INFO	Marionette enabled
+1666763131189	Marionette	INFO	Listening on port 62199
+Read port: 62199
+1666763131631	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofilePX7OfN\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.rediff.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.rediff.com."
+1666763168229	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://im.rediff.com/worldrediff/js_2_5/jquery_1_10_min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1666763192291	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mj1666763192762	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript warning: https://rock.defybrick.com/placement_invocation?id=65349&idx=0, line 1: WEBGL_debug_renderer_info is deprecated in F1666763199404	Marionette	WARN	Ignoring event 'pageconsole.warn: LoginRecipes: "Falling back to a synchronous message fJavaScript warning: https://im.reJavaScript error: http://newimads.rediff.com/rediffadserver/www/images/479d8a09a5850a0a97d99c06e53fdf86/index.html?clickTag=http://newads.rediff.com/rediffadserver/www/delivery/ck.php?oaparams=2__bannerid=6743__zoneid=56__source=_blank__OXLCA=1__cb=b628e0dcde__oadest=, line 12: SecurityError: Permission denied to access property "document" on cross-origin object
+JavaScript warning: https://im.rediff.com/worldrediff/js_2_5/jquery.js, line 2425: unreachable code after return statement
+1666763208554	Marionette	INFO	Stopped listening on port 62192
+[Parent 7920, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:746
+1_10_min.js, line 2: Using //@ to indic1666763197875	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:220:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1666763199521	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript warning: https://rock.defybrick.com/placement_invocation?id=65349&idx=0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Parent 16760, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:746
+1666763203921	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:220:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1666763205270	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:220:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1666763206907	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:220:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://f5mail.rediff.com."
+1666763207658	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:220:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1666763210393	Marionette	INFO	Stopped listening on port 62193

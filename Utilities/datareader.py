@@ -1,7 +1,5 @@
 import openpyxl
 
-from Utilities.excelreader import readAllValues
-
 
 def getDataExcel(sheetName):
     workbook = openpyxl.load_workbook("../Excel/login.xlsx")
